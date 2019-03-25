@@ -1,4 +1,4 @@
-### Simplified Currency formatter
+## Simplified Currency formatter
 
 #### A simple, lightweight, localized currency formatter.
 
@@ -30,3 +30,8 @@ console.log(currecyFormat(1000000, 'de-DE', 'EUR'));
 console.log(currecyFormat(1000000, 'en-US', 'USD'));
 // $1, 000, 000;
 ```
+
+## Credits
+
+- [Intl.js](https://github.com/andyearnshaw/Intl.js/): We use currency format data from this library.
+- [currency-symbol-map](https://github.com/bengourley/currency-symbol-map): We use currency symbol mapping from this library.
