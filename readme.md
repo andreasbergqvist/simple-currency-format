@@ -12,8 +12,8 @@ This library simply use the symbol that is used in the prefered currency in a lo
 
 Example:
 
-```
-const { currecyFormat } = require('../dist');
+```javascript
+import { currecyFormat } from 'simple-currency-format';
 console.log(currecyFormat(1000000, 'sv-SE', 'SEK'));
 // 1 000 000 kr
 console.log(currecyFormat(1000000, 'en-GB', 'GBP'));
