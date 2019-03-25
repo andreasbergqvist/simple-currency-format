@@ -1,8 +1,8 @@
 {
   "name": "simple-currency-format",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Format currency when Intl is not available",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Andreas Bergqvist",
   "license": "MIT",
   "repository": {
