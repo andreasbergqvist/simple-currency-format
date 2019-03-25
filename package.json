@@ -1,6 +1,6 @@
 {
   "name": "simple-currency-format",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Format currency when Intl is not available",
   "main": "dist/index.js",
   "author": "Andreas Bergqvist",
@@ -10,7 +10,8 @@
     "url": "https://github.com/andreasbergqvist/simple-currency-format.git"
   },
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
