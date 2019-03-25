@@ -12,6 +12,11 @@ This library simply use the symbol that is used in the prefered currency in a lo
 
 Example:
 
+```shell
+npm install simple-currency-format
+yarn add simple-currency-format
+```
+
 ```javascript
 import { currecyFormat } from 'simple-currency-format';
 console.log(currecyFormat(1000000, 'sv-SE', 'SEK'));
