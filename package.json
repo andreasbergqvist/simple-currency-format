@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Andreas Bergqvist",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreasbergqvist/simple-currency-format.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
