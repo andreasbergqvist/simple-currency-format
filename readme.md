@@ -1,6 +1,6 @@
-## Simple Currency formatter
+# Simple Currency formatter
 
-#### A simple, lightweight, localized currency formatter.
+## A simple, lightweight, localized currency formatter.
 
 IF you do not have access to Javascript Intl library.  
 Like when you are running on Android with React Native.  
@@ -10,12 +10,30 @@ It is simplified in a way that it will always return the same currency symbols f
 Even when a locale that should render a specific other symbol is used.  
 This library simply use the symbol that is used in the prefered currency in a locale.
 
-Example:
+## Install
 
 ```shell
 npm install simple-currency-format
 yarn add simple-currency-format
 ```
+
+## Documentation
+
+### currencyFormat(amount, locale, currency, decimals)
+
+**Parameters**:
+
+**amount**: `number`, The number to format
+
+**locale**: `string`, The locale for the format (i.e. de-DE, en-US,en-GB )
+
+**currency**: `string`, Currency code (i.e. EUR, USD, GBP)
+
+**decimals**: `number`, Number of decimals (default: 0)
+
+**Returns**: `string`, Formatted currency
+
+## Example:
 
 ```javascript
 import { currencyFormat } from 'simple-currency-format';
