@@ -1,8 +1,11 @@
 {
   "name": "simple-currency-format",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Format currency when Intl is not available",
   "main": "dist/index.js",
+  "umd:main": "dist/simple-currency-format.umd.production.js",
+  "module": "dist/simple-currency-format.es.production.js",
+  "typings": "dist/index.d.ts",
   "author": "Andreas Bergqvist",
   "license": "MIT",
   "repository": {
@@ -10,21 +13,17 @@
     "url": "https://github.com/andreasbergqvist/simple-currency-format.git"
   },
   "files": [
-    "dist",
-    "index.d.ts"
+    "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "prepare": "npm run build",
+    "test": "tsdx test"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.0",
-    "@babel/preset-env": "^7.4.2",
-    "rollup": "^1.7.3",
-    "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-terser": "^4.0.4"
-  },
-  "dependencies": {
-    "core-js": "^2.6.5"
+    "@types/jest": "^24.0.11",
+    "tsdx": "^0.3.4",
+    "typescript": "^3.4.3"
   }
 }

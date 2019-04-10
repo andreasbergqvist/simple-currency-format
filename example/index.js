@@ -8,4 +8,5 @@ console.log(currencyFormat(1000000, 'mt-MT', 'EUR'));
 console.log(currencyFormat(1000000, 'de-DE', 'EUR'));
 // 1.000.000 €
 console.log(currencyFormat(1000000, 'en-US', 'USD'));
+
 // $1, 000, 000;

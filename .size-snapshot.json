@@ -1,0 +1,70 @@
+{
+  "D:\\Projects\\opensource\\simple-currency-format\\dist/simpleCurrencyFormat2.cjs.development.js": {
+    "bundled": 125,
+    "minified": 72,
+    "gzipped": 86
+  },
+  "D:\\Projects\\opensource\\simple-currency-format\\dist/simpleCurrencyFormat2.cjs.production.js": {
+    "bundled": 81,
+    "minified": 50,
+    "gzipped": 66
+  },
+  "D:\\Projects\\opensource\\simple-currency-format\\dist/simpleCurrencyFormat2.umd.development.js": {
+    "bundled": 423,
+    "minified": 248,
+    "gzipped": 189
+  },
+  "D:\\Projects\\opensource\\simple-currency-format\\dist/simpleCurrencyFormat2.umd.production.js": {
+    "bundled": 373,
+    "minified": 226,
+    "gzipped": 174
+  },
+  "D:\\Projects\\opensource\\simple-currency-format\\dist/simpleCurrencyFormat2.es.production.js": {
+    "bundled": 63,
+    "minified": 33,
+    "gzipped": 52,
+    "treeshaked": {
+      "rollup": {
+        "code": 0,
+        "import_statements": 0
+      },
+      "webpack": {
+        "code": 951
+      }
+    }
+  },
+  "d:\\Projects\\opensource\\simple-currency-format\\dist/simpleCurrencyFormat.cjs.development.js": {
+    "bundled": 94104,
+    "minified": 52035,
+    "gzipped": 4418
+  },
+  "d:\\Projects\\opensource\\simple-currency-format\\dist/simpleCurrencyFormat.cjs.production.js": {
+    "bundled": 94139,
+    "minified": 52035,
+    "gzipped": 4418
+  },
+  "d:\\Projects\\opensource\\simple-currency-format\\dist/simpleCurrencyFormat.umd.development.js": {
+    "bundled": 103453,
+    "minified": 52137,
+    "gzipped": 4506
+  },
+  "d:\\Projects\\opensource\\simple-currency-format\\dist/simpleCurrencyFormat.umd.production.js": {
+    "bundled": 103453,
+    "minified": 52137,
+    "gzipped": 4506
+  },
+  "d:\\Projects\\opensource\\simple-currency-format\\dist/simpleCurrencyFormat.es.production.js": {
+    "bundled": 94075,
+    "minified": 52007,
+    "gzipped": 4403,
+    "treeshaked": {
+      "rollup": {
+        "code": 0,
+        "import_statements": 0
+      },
+      "webpack": {
+        "code": 951
+      }
+    }
+  }
+}
