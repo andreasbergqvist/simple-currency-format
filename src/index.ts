@@ -4515,13 +4515,13 @@ const patterns = <const>[
   }
 ];
 
-type CurrencySymbol = keyof typeof currencySymbols;
+type CurrencyCode = keyof typeof currencySymbols;
 type Locale = typeof patterns[number]['locale'];
 
 function currencyFormat(
   amount: number,
   locale: Locale,
-  currency: CurrencySymbol,
+  currency: CurrencyCode,
   decimals = 0
 ) {
   const localePattern = patterns.find(pattern => pattern.locale === locale);
@@ -4542,4 +4542,4 @@ function currencyFormat(
     .replace('{number}', sum);
 }
 
-export { currencyFormat, CurrencySymbol, Locale };
+export { currencyFormat, CurrencyCode, Locale };
