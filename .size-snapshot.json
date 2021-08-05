@@ -66,5 +66,39 @@
         "code": 951
       }
     }
+  },
+  "C:\\Projects\\OpenSource\\simple-currency-format\\dist/simpleCurrencyFormat.cjs.development.js": {
+    "bundled": 94104,
+    "minified": 52035,
+    "gzipped": 4418
+  },
+  "C:\\Projects\\OpenSource\\simple-currency-format\\dist/simpleCurrencyFormat.cjs.production.js": {
+    "bundled": 94104,
+    "minified": 52035,
+    "gzipped": 4418
+  },
+  "C:\\Projects\\OpenSource\\simple-currency-format\\dist/simpleCurrencyFormat.umd.production.js": {
+    "bundled": 103453,
+    "minified": 52137,
+    "gzipped": 4506
+  },
+  "C:\\Projects\\OpenSource\\simple-currency-format\\dist/simpleCurrencyFormat.umd.development.js": {
+    "bundled": 103453,
+    "minified": 52137,
+    "gzipped": 4506
+  },
+  "C:\\Projects\\OpenSource\\simple-currency-format\\dist/simpleCurrencyFormat.es.production.js": {
+    "bundled": 94075,
+    "minified": 52007,
+    "gzipped": 4403,
+    "treeshaked": {
+      "rollup": {
+        "code": 0,
+        "import_statements": 0
+      },
+      "webpack": {
+        "code": 951
+      }
+    }
   }
 }
