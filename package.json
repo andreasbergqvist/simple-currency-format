@@ -1,6 +1,6 @@
 {
   "name": "simple-currency-format",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Format currency when Intl is not available",
   "main": "dist/index.js",
   "umd:main": "dist/simple-currency-format.umd.production.js",
@@ -25,5 +25,6 @@
     "@types/jest": "^26.0.24",
     "tsdx": "^0.14.1",
     "typescript": "^4.3.5"
-  }
+  },
+  "dependencies": {}
 }
