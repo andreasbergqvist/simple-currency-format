@@ -33,7 +33,7 @@ yarn add simple-currency-format
 
 **Returns**: `string`, Formatted currency
 
-## Example:
+#### Example:
 
 ```javascript
 import { currencyFormat } from 'simple-currency-format';
@@ -47,6 +47,24 @@ console.log(currencyFormat(1000000, 'de-DE', 'EUR'));
 // 1.000.000 €
 console.log(currencyFormat(1000000, 'en-US', 'USD'));
 // $1, 000, 000;
+```
+
+### getCurrencySymbol(currency)
+
+**Parameters**:
+
+**currency**: `string`, Currency code (i.e. EUR, USD, GBP)
+
+**Returns**: `string`, Currency symbol (i.e. kr, £)
+
+#### Example:
+
+```javascript
+import { getCurrencySymbol } from 'simple-currency-format';
+console.log(getCurrencySymbol('SEK'));
+// kr;
+console.log(getCurrencySymbol('GBP'));
+// £;
 ```
 
 ## Credits

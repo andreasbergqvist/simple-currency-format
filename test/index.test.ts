@@ -1,4 +1,4 @@
-import { currencyFormat } from '../src';
+import { currencyFormat, getCurrencySymbol } from '../src';
 
 describe('test output', () => {
   it('sv-SE SEK', () => {
@@ -12,5 +12,12 @@ describe('test output', () => {
   });
   it('en-US SEK', () => {
     expect(currencyFormat(1000000, 'en-US', 'SEK')).toEqual('kr1,000,000');
+  });
+
+  it('symbol SEK', () => {
+    expect(getCurrencySymbol('SEK')).toEqual('kr');
+  });
+  it('symbol SEK', () => {
+    expect(getCurrencySymbol('GBP')).toEqual('£');
   });
 });
