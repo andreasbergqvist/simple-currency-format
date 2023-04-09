@@ -1592,6 +1592,12 @@ const patterns = <const>[
     currency: '{currency}{number}'
   },
   {
+    locale: 'en-GB-oxendict',
+    decimal: '.',
+    group: ',',
+    currency: '{currency}{number}'
+  },
+  {
     locale: 'eo',
     decimal: ',',
     group: ' ',
